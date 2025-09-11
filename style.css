@@ -1,0 +1,63 @@
+* {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.main  {
+font-size: large;
+text-align: center;
+font-style: oblique;
+}
+
+button {
+  padding: 12.5px 30px;
+  border: 0;
+  border-radius: 100px;
+  background-color: #b4b5b6;
+  color: #ffffff;
+  font-weight: Bold;
+  transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+}
+
+button:hover {
+  background-color: #7f8181;
+  box-shadow: 0 0 20px #6fc5ff50;
+  transform: scale(1.1);
+}
+
+button:active {
+  background-color: #020866;
+  transition: all 0.25s;
+  -webkit-transition: all 0.25s;
+  box-shadow: none;
+  transform: scale(0.98);
+}
+
+.tabela {
+  display: flex;
+  flex-direction: column;
+}
+.tabela label {
+  font-size: 10px;
+  margin-left: 10px;
+}
+.tabela sup {
+  color: red;
+}
+.tabela .input {
+  border: none;
+  outline: none;
+  border-radius: 30px; 
+  padding: 10px 15px;  
+  background-color: #e1e2e3;
+  box-shadow: inset 2px 5px 10px rgba(0, 0, 0, 0.3);
+  transition: 300ms ease-in-out;
+  margin-top: 10px;
+}
+.tabela .input:focus {
+  background-color: #ffffff;
+  transform: scale(1.01);
+  box-shadow: 13px 13px 100px #969696, -13px -13px 100px #ffffff;
+}
+
+
